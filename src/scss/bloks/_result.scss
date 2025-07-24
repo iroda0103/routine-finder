@@ -1,0 +1,210 @@
+
+.result-container {
+  padding: 120px 0;
+  max-width: 100%;
+  background-image: url('../assets/resultBg.png');
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+
+  .home--description {
+    max-width: 563px;
+    line-height: 150%;
+  }
+
+  .content {
+    gap: 32px;
+  }
+}
+
+.retake-btn {
+  /* Frame 89 */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 238px;
+  height: 47px;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  padding: 14px 40px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: transparent;
+
+}
+
+.result-product {
+  padding-top: 40px;
+  position: relative;
+  top: -100px;
+  z-index: 1000;
+  align-items: center;
+  padding-bottom: 400px;
+}
+
+.result-product,
+.product-slider {
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  // align-items: flex-start;
+  gap: 36px;
+  // margin-top: 40px;
+
+}
+
+.result-product__text-wrapper {
+  width: 350px;
+  height: 420px;
+  background: #EEF7FB;
+  border-radius: 8px;
+  padding: 40px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+
+}
+
+.product-card {
+  background-color: #fff;
+  width: 350px;
+  height: 420px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 0;
+  position: relative;
+}
+
+.product-slider {
+  overflow-x: scroll;
+  width: 760px;
+}
+
+.product-slider img {
+  width: 350px;
+  height: 345px;
+  border-radius: 8px;
+}
+
+.product--title {
+  /* Daily routine */
+
+  // width: 165px;
+  // height: 19px;
+  overflow: hidden;
+  font-family: 'Grange';
+  font-family: grange-extended, sans-serif;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 110%;
+  /* or 26px */
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: #1C2635;
+}
+
+.product--description {
+  /* Perfect for if you're looking for soft, nourished skin, our moisturizing body washes are made with skin-natural nutrients that work with your skin to replenish moisture. With a light formula, the bubbly lather leaves your skin feeling cleansed and cared for. And by choosing relaxing fragrances you can add a moment of calm to the end of your day. */
+
+  // width: 231px;
+  height: 286px;
+  overflow: scroll;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #1C2635;
+  text-align: start;
+
+}
+
+.prev-btn {
+  width: 60.06px;
+  height: 60.06px;
+  background: #EEF7FB;
+  border-radius: 30.03px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-wrapper {
+  background-color: #F6F6F6;
+
+  width: 350px;
+  height: 345px;
+  border-radius: 8px;
+
+}
+
+.product-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 6px;
+  width: 350px;
+  height: 57px;
+
+  .product--title {
+    /* Milk Body Cleanser */
+    display: flex;
+    align-items: start;
+    width: 350px;
+    // height: 25.5px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 110%;
+    text-align: center;
+    color: #1C2635;
+  }
+}
+
+.heart{
+  /* favorite */
+
+position: absolute;
+top: 20px ;
+right: 20px;
+z-index: 2000;
+color: #1C2635;
+}
+
+.heart svg{
+  width: 24px;
+  height: 24px;
+}
+
+.price{
+  /* $14.00 */
+
+width: 350px;
+height: 25.5px;
+
+font-family:grange-extended, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 110%;
+/* or 20px */
+text-align: center;
+color: #1C2635;
+}

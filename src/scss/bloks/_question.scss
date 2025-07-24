@@ -1,0 +1,167 @@
+.question--title {
+    max-width: 583px;
+    width: 100%;
+    height: 88px;
+    font-family: 'Grange';
+    font-family: grange-extended, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 110%;
+    text-align: center;
+    color: #1C2635;
+}
+
+.question-container {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    max-width: 583px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    // padding: 355px 0px 0px 49px;
+}
+
+.question-page {
+    width: 100%;
+    height: 100vh;
+}
+
+.question__position {
+    position: absolute;
+    width: 101px;
+    height: 101px;
+    right: -230px;
+}
+
+.ellipse {
+    /* Ellipse 3 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 101px;
+    height: 101px;
+    left: 0px;
+    top: 0px;
+    // background: #EEF7FB;
+    // background: #28b9f7;
+    border-radius: 50%;
+    border: 4px solid #EEF7FB;
+}
+
+.question--number {
+    width: 24px;
+    height: 24px;
+    font-family: 'Proxima Nova';
+    font-family: proxima-nova, sans-serif;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1C2635;
+}
+
+.ellipse--number {
+    position: absolute;
+    width: 101px;
+    height: 101px;
+    right: -100px;
+    // background: #AADDF3;
+    border-radius: 50%;
+    border: 4px solid #AADDF3;
+}
+
+
+.answer--button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    // min-width: 189px;
+    width: 199px;
+    height: 44px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 14px 40px 14px 20px;
+    gap: 8px;
+    border: 1px solid #5BC1ED;
+    border-radius: 8px;
+    background-color: #fff;
+    font-family: 'Proxima Nova';
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #1C2635;
+}
+
+.active{
+    background-color: #C4EDFF;
+    color: #000;
+}
+
+.answers {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.back--button {
+    font-family: 'Proxima Nova';
+    font-family: proxima-nova, sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #677487;
+}
+
+.back--button:hover {
+    cursor: pointer;
+}
+
+.navigate-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+}
+
+.next--button {
+    /* Frame 1 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 40px;
+    gap: 10px;
+
+    background: #C4EDFF;
+    border-radius: 8px;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1C2635;
+    border: none;
+}

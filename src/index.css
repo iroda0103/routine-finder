@@ -1,0 +1,50 @@
+@import "./scss/style.scss";
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+body {
+  /* background: #24262c;
+  color: var(--color_dark); */
+}
+#root {
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color:#fff;
+}
+
+.d-block {
+  display: block !important;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Hide scrollbar for Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+/* Hide scrollbar for other browsers */
+/* *::-webkit-scrollbar {
+  width: 0.25rem;
+} */
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}

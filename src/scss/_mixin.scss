@@ -1,0 +1,15 @@
+@mixin input {
+  border-radius: 10px;
+  background: #24262c;
+  padding: 13px;
+  border: 0;
+  color: #fff;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.72px;
+}
