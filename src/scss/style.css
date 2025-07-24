@@ -378,9 +378,10 @@
 }
 
 .prev-btn {
-  width: 60.06px;
-  height: 60.06px;
+  width: 40.06px;
+  height: 40.06px;
   background: #EEF7FB;
+  border: none;
   border-radius: 30.03px;
   display: flex;
   justify-content: center;

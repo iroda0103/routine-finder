@@ -161,11 +161,11 @@ const ResultProductContainer = () => {
 
                     return values.some((ans) =>
                         title.includes(ans) || body.includes(ans) || tags.includes(ans)
-                    );
+                    );  
                 });
                 console.log("Filtered Products:", filteredProducts);
-                
-                setProducts(filteredProducts);
+
+                setProducts(filteredProducts.length > 0 ? filteredProducts : allProducts.slice(0, 6));
             });
     }, [wishlist]);
 
@@ -248,7 +248,7 @@ const ResultProductContainer = () => {
                 </button>
 
                 <button
-                    className="next-btn"
+                    className="prev-btn next-btn"
                     onClick={handleNext}
                     disabled={isLastSlide}
                     style={{ cursor: isLastSlide ? "not-allowed" : "pointer", opacity: isLastSlide ? 0.5 : 1 }}
